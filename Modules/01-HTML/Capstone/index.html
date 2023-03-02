@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Amanda Lau">
+    <title>About Me</title>
+</head>
+<body>
+    <main>
+        <h3>Navigation Links</h3>
+        <p>
+            <a href="#about-me" style="text-decoration: none;">About Me</a> |
+            <a href="#hobbies" style="text-decoration: none;">Hobbies</a> |
+            <a href="#watchlist" style="text-decoration: none;">Watchlist</a> | 
+            <a href="#readlist" style="text-decoration: none;">Readlist</a> |
+            <a href="#message" style="text-decoration: none;">Say Hi!</a>
+        </p>
+        <hr>
+
+        <section id="about-me">
+            <div>
+                <h1>About Me</h1>
+                <table style="border-spacing: 5px;">
+                    <tr>
+                        <td><img src="https://avatars.githubusercontent.com/u/74201433?v=4" alt="icon" width=150px height=150px></td>
+                        <td>
+                            <h3>Amanda Lau</h3>
+                            <p>
+                                Student at Sigma School <br>
+                                Aspiring software engineer
+                            </p>
+                            <p>
+                                Email me at <a href="mailto:amandalau.99@gmail.com">amandalau.99@gmail.com</a> or <br>
+                                Contact me at <a href="tel:6012-886-****"> +6012886****</a>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+                
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate numquam voluptate magni error sint sit officiis modi corporis, eaque optio aut nostrum assumenda ut quam eos excepturi beatae provident ad. Ad aliquam magnam laborum cum maxime vel repellendus ex praesentium, ipsa fugit inventore repudiandae aut voluptates ab ducimus eaque exercitationem? Veritatis fugit expedita quia quae nulla aspernatur at reiciendis! Fugiat neque, tempora corrupti quos quo doloremque consectetur ipsa commodi, totam deleniti eum dolor, amet repudiandae suscipit nihil nisi sint aperiam fugit! Molestiae qui nulla reiciendis nihil! Placeat ratione ab, porro expedita fuga autem consequuntur, veritatis odit quidem vero mollitia a?</p>
+                <hr>
+            </div>
+        </section>
+
+        <section id="hobbies">
+            <div>
+                <h2>My Hobbies</h2>
+                <ul>
+                    <li>Eat - (Code) - Sleep - Repeat </li>
+                    <li>Being couch potato (K-Dramas/Thai Dramas/HK Dramas)</li>
+                    <li>Listening to music</li>
+                </ul>
+                <hr>
+            </div>
+        </section>
+
+        <section id="watchlist">
+            <div>
+                <h2>Watchlist</h2>
+                <table border=2 style="border-color: black; border-collapse: collapse; text-align: center;">
+                    <th>Title</th>
+                    <th>Genre</th>
+                    <th>Language</th>
+                    <th>Progress</th>
+
+                    <tr>
+                        <td>Hospital Playlist</td>
+                        <td>Medical Rom-com</td>
+                        <td>Korean</td>
+                        <td>Currently Watching</td>
+                    </tr>
+
+                    <tr>
+                        <td>Alice in Borderland</td>
+                        <td>Sci-Fi</td>
+                        <td>Japanese</td>
+                        <td>Currently Watching</td>
+                    </tr>
+
+                    <tr>
+                        <td>The Three Gentlebros</td>
+                        <td>Rom-com</td>
+                        <td>Thailand</td>
+                        <td>Watched</td>
+                    </tr>
+
+                    <tr>
+                        <td>Thai Cave Rescue</td>
+                        <td>Documentary</td>
+                        <td>Thailand</td>
+                        <td>Plan to watch</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <section id="readlist">
+            <div>
+                <h2>Readlist</h2>
+                <table border=2 style="border-color: black; border-collapse: collapse; text-align: center;">
+                    <th>Title</th>
+                    <th>Genre</th>
+                    <th>Progress</th>
+
+                    <tr>
+                        <td>The Widow of Wallstreet</td>
+                        <td>Fiction</td>
+                        <td>Reading</td>
+                    </tr>
+
+                    <tr>
+                        <td>Born 1982, Kim Jiyoung</td>
+                        <td>Fiction</td>
+                        <td>To-Read</td>
+                    </tr>
+
+                    <tr>
+                        <td>Atomic Habits</td>
+                        <td>Self-Help</td>
+                        <td>To-Read</td>
+                    </tr>
+
+                    <tr>
+                        <td>Five Feet Apart</td>
+                        <td>Fiction</td>
+                        <td>Read</td>
+                    </tr>
+                </table>
+                <hr>
+            </div>
+        </section>
+
+        <form action="message">
+            <h3>Say HI!</h3>
+            <div class="name">
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name" placeholder="John Doe" required>
+            </div>
+
+            <div class="email" style="padding-top: 10px;">
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" placeholder="johndoe@email.com" required>
+            </div>
+
+            <div class="message" style="padding-top: 10px;">
+                <label for="message">Message: </label>
+                
+                <div style="padding-top: 5px;">
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Drop a message here~"></textarea>
+                </div>
+            </div>
+            <button type="submit" style="border-radius: 16px; font-size: 14px; padding: 8px; background-color: rgb(255, 255, 89); border: 0.5;">Send Message</button>
+        </form>
+        <hr>
+    </main>
+
+    <footer id="footer">
+        <p>Copyright &copy; 2023 | amaandalau</p>
+        <a href="#top ">Return to top</a>
+    </footer>
+</body>
+</html>
