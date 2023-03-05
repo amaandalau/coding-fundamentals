@@ -1,0 +1,30 @@
+.breadcrumb {
+    padding: 30px;
+    background-color: bisque;
+    list-style-type: none;
+}
+
+.breadcrumb li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.breadcrumb a {
+    color: blue;
+    text-decoration: none;
+}
+
+.breadcrumb a::before {
+    content: ' / ';
+    margin-right: 1rem;
+}
+
+.breadcrumb .home::before {
+    content: '';
+}
+
+.breadcrumb .info::before {
+    content: '';
+    margin-left: 5px;
+}
+
