@@ -1,0 +1,378 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    position: relative;
+}
+
+.main-header-nav {
+    background-color: darkslategrey;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+}
+
+.logo-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo-navbar img {
+    width: 60px;
+    height: 40px;
+}
+
+.nav-links {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.register-btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 20px 10px 15px;
+}
+
+.register-btn button {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.register-btn button:hover {
+    text-decoration: underline;
+    
+}
+
+.container-01 {
+    padding: 50px 100px;
+    height: 90vh;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-01 h1 {
+    color: black;
+    font-weight: bolder;
+    font-size: 64px;
+    margin-block: 0;
+}
+
+.container-01 h5 {
+    color: darkslategray;
+    overflow: auto;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.contact-info {
+    height: 100vh;
+    background: linear-gradient(to bottom, white, lightgray);
+    position: static;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, darkslategrey, lightgrey);
+    /* border: 1px solid white; */
+    padding: 20px;
+    flex-wrap: wrap;
+    width: 30%;
+}
+
+.contact-details-01 h4 {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.contact-details-01 p {
+    color: white;
+    font-size: 14px;
+    overflow: auto;
+}
+
+.contact-details-02 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.contact-details-02 i {
+    color: white;
+    padding: 5px 5px 5px 0px;
+    margin: 5px;
+}
+
+.contact-details-02 a {
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+
+.contact-details-02 a:hover {
+    text-decoration: underline;
+}
+
+.social-media {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    padding: 5px 5px 5px 0pxx;
+    margin: 5px;
+    margin-top: 10px;
+}
+
+.social-media i {
+    color: white;
+    width: 10px;
+    height: 10px;
+}
+
+.social-media i:hover {
+    cursor: pointer;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px 100px;
+}
+
+.contact-form h4 {
+    display: block;
+    font-weight: bold;
+}
+
+.first-last-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.first-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-name label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.first-name input {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 8px;
+    border: 1px solid lightslategray;
+}
+
+.last-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.last-name label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.last-name input {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 8px;
+    border: 1px solid lightslategray;
+}
+
+.email-phone {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap:  wrap;
+    margin-top: 20px;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+}
+
+.email label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.email input {
+    width: 300px;
+    height: 30px;;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 8px;
+    border: 1px solid lightslategray;
+}
+
+.phone {
+    display: flex;
+    flex-direction: column;
+}
+
+.phone-label {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.phone-label #phone-text {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.phone-label #optional-text {
+    font-weight: lighter;
+    font-size: 12px;
+    color: lightslategray;
+}
+
+.phone-input input {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 8px;
+    border: 1px solid lightslategray;
+
+}
+
+.subject {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.subject label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.subject input {
+    width: 99%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 8px;
+    border: 1px solid lightslategray;
+
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.msg-label {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.msg-label #message-label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.msg-label #max-char-label {
+    font-weight: lighter;
+    font-size: 12px;
+    color: lightslategray;
+}
+
+.msg-input textarea {
+    width: 99%;
+    height: 200px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 8px;
+    border: 1px solid lightslategray;
+
+}
+
+.submit-btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.submit-btn button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: darkslategray;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.submit-btn button:hover {
+    text-decoration: underline;
+}
+.footer-section {
+    background-color: darkslategray;
+    position: static;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 5px;
+    
+}
+
+.footer-section p {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    overflow: auto;
+}
